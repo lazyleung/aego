@@ -1,2 +1,3 @@
 # aego
-Startup Weekend HK Passion Freelancing Platform
+Startup Weekend HK
+A freelancing platform that empowers passions to help people.
