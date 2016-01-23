@@ -67,9 +67,8 @@ body {
 -------------------------------------------------- */
 
 .profile #profile{
-  width: 30vw;
   border-radius: 50%;
-  
+  border: 8px solid #FFF;
   margin-top: -10vh;
 }
 
