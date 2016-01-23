@@ -7,12 +7,12 @@ body {
   color: #5a5a5a;
 }
 
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
-.navbar {
+.navbar#common{
   margin-bottom: 0px;
+  background-color: rgb(255,102,0); 
 }
 
 .navbar-brand {
@@ -21,10 +21,6 @@ body {
 
 .navbar #logo {
   height: 50px;
-}
-
-.navbar-header .input-group {
-  padding: 8px 0px;
 }
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
@@ -45,8 +41,33 @@ body {
   padding-right: 15px;
   padding-left: 15px;
 }
+
 .navbar-wrapper .navbar .container {
   width: auto;
+}
+
+.navbar-nav a{
+  color: white;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: grey;
+}
+  
+.navbar a {
+    color: white;
+}
+
+.navbar-nav > #fat{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.btnOrange {
+    color: white;
+    background-color: rgb(255,102,0);
 }
 
 /* COVER CUSTOMIZATION
@@ -67,7 +88,7 @@ body {
 
 .profile #profile{
   border-radius: 50%;
-  border: 8px solid #FFF;
+  border: 8px solid rgb(255,102,0);
   margin-top: -30%;
 }
 
@@ -77,6 +98,11 @@ body {
 
 .profile #invalid {
   background-color: red;
+}
+
+.profile .quickinfo {
+  border-radius: 25px;
+  border: 2px solid lightgrey;
 }
 
 /* CUSTOMIZE THE CAROUSEL
