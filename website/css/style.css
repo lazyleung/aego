@@ -66,7 +66,6 @@ body {
   background: no-repeat center right fixed url(../img/profile_cover.jpg);
   background-size: 100%;     
   background-size: cover;
-  width:100vw;
   height: 50vh;
       
   margin: 0px;
@@ -80,7 +79,15 @@ body {
   border-radius: 50%;
   border: 8px solid #FFF;
   margin-top: -10vh;
->>>>>>> ea8376988c6cd71d3665c56c07be34a7440270f2
+  margin-top: -30%;
+}
+
+.profile #valid {
+  background-color: green;
+}
+
+.profile #invalid {
+  background-color: red;
 }
 
 /* CUSTOMIZE THE CAROUSEL
