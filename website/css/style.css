@@ -10,7 +10,7 @@ body {
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
-.navbar {
+.navbar#common{
   margin-bottom: 0px;
   background-color: rgb(255,102,0); 
 }
