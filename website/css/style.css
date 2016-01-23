@@ -71,9 +71,8 @@ body {
 -------------------------------------------------- */
 
 .profile #profile{
-  width: 30vw;
   border-radius: 50%;
-  
+  border: 8px solid #FFF;
   margin-top: -10vh;
 >>>>>>> ea8376988c6cd71d3665c56c07be34a7440270f2
 }
