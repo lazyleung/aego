@@ -12,7 +12,19 @@ body {
 -------------------------------------------------- */
 
 .navbar {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  padding: 0px 10px;
+}
+
+.navbar #logo {
+  height: 50px;
+}
+
+.navbar-header .input-group {
+  padding: 8px 0px;
 }
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
@@ -37,6 +49,29 @@ body {
   width: auto;
 }
 
+/* COVER CUSTOMIZATION
+-------------------------------------------------- */
+
+.cover {
+  background: no-repeat center right fixed url(../img/profile_cover.jpg);
+  background-size: 100%;     
+  background-size: cover;
+  width:100vw;
+  height: 50vh;
+      
+  margin: 0px;
+  padding: 0px;
+}
+
+/* PROFILE CUSTOMIZATION
+-------------------------------------------------- */
+
+.profile #profile{
+  width: 30vw;
+  border-radius: 50%;
+  
+  margin-top: -10vh;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
