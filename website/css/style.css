@@ -100,9 +100,26 @@ body {
   background-color: red;
 }
 
+.profile .location {
+  text-align: right;
+}
+
+.profile .rating {
+  margin-top: 10px;
+  text-align: right;
+}
+.profile .service_title{
+  margin-top: 0px;
+}
+
 .profile .quickinfo {
   border-radius: 25px;
   border: 2px solid lightgrey;
+}
+
+.profile .booking {
+  padding: 0px;
+  margin-top: 20px;
 }
 
 /* CUSTOMIZE THE CAROUSEL
