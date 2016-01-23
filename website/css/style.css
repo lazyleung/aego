@@ -7,7 +7,6 @@ body {
   color: #5a5a5a;
 }
 
-
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -82,8 +81,7 @@ body {
 
 .profile #profile{
   border-radius: 50%;
-  border: 8px solid #FFF;
-  margin-top: -10vh;
+  border: 8px solid rgb(255,102,0);
   margin-top: -30%;
 }
 
@@ -93,6 +91,11 @@ body {
 
 .profile #invalid {
   background-color: red;
+}
+
+.profile .quickinfo {
+  border-radius: 25px;
+  border: 2px solid lightgrey;
 }
 
 /* CUSTOMIZE THE CAROUSEL
