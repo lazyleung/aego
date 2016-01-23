@@ -19,6 +19,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/dashboard.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -60,41 +62,62 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar">
-          <p> Hi There, Owen Liu </p>
-          <ul class="nav nav-sidebar">
+        <div class="col-sm-3 sidebar">
+          <p class="text-center"> Hi There, Owen Liu </p>
+          <img class="img-circle center-block" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+          <ul class="nav nav-sidebar text-center">
             <!-- <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li> -->
             <li><a href="#">Change Photo</a></li>
             <li><a href="#">View Profile</a></li>
             <li><a href="#">Edit Profile</a></li>
           </ul>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
-          <h1 class="page-header text-center">Overview</h1>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+<!-- 92 92 92 -->
+          <div class="row placeholders" style="margin-bottom:10px;border-bottom: 1px solid #eee;">
+            <br>
+            <div class="col-xs-2 col-xs-offset-1 placeholder" style="background-color:rgb(92,92,92)">
+              <h4 style="margin-top:15px;margin-bottom:15px;color:white;">Dashboard</h4>
+            </div>
+            <div class="col-xs-2 placeholder" style="background-color:rgb(92,92,92)">
+              <h4 style="margin-top:15px;margin-bottom:15px;color:white;">Inbox</h4>
+            </div>
+            <div class="col-xs-2 placeholder" style="background-color:rgb(92,92,92)">
+              <h4 style="margin-top:15px;margin-bottom:15px;color:white;">Reports</h4>
+            </div>
+            <div class="col-xs-2 placeholder" style="background-color:rgb(92,92,92)">
+              <h4 style="margin-top:15px;margin-bottom:15px;color:white;">Wish List</h4>
+            </div>
+            <div class="col-xs-2 placeholder" style="background-color:rgb(92,92,92)">
+              <h4 style="margin-top:15px;margin-bottom:15px;color:white;">Settings</h4>
+            </div>
+          </div>
+
+          <h1 class="page-header text-center" style="margin-top:0px;">Overview</h1>
 
           <div class="row placeholders" style="padding-bottom: 9px; border-bottom: 1px solid #eee;">
             <br>
             <div class="col-xs-2 col-xs-offset-1 placeholder">
               <h4>Visibility</h4>
-              <span class="glyphicon glyphicon-eye-open img-responsive" style="font-size: 5em; margin-top:10px;"></span>
+              <span class="glyphicon glyphicon-eye-open img-responsive text-muted" style="font-size: 5em; margin-top:10px;"></span>
               <!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail"> -->
             </div>
             <div class="col-xs-2 placeholder">
               <h4>Ratings</h4>
-              <span class="glyphicon glyphicon-star-empty img-responsive" style="font-size: 5em; margin-top:10px;" aria-hidden="true"></span>
+              <span class="glyphicon glyphicon-star-empty img-responsive text-muted" style="font-size: 5em; margin-top:10px;" aria-hidden="true"></span>
             </div>
             <div class="col-xs-2 placeholder">
               <h4>Earnings</h4>
-              <span class="glyphicon glyphicon-usd img-responsive" style="font-size: 5em; margin-top:10px;" aria-hidden="true"></span>
+              <span class="glyphicon glyphicon-usd img-responsive text-muted" style="font-size: 5em; margin-top:10px;" aria-hidden="true"></span>
             </div>
             <div class="col-xs-2 placeholder">
               <h4>Spending</h4>
-              <span class="glyphicon glyphicon-shopping-cart img-responsive" style="font-size: 5em; margin-top:10px;" aria-hidden="true"></span>
+              <span class="glyphicon glyphicon-shopping-cart img-responsive text-muted" style="font-size: 5em; margin-top:10px;" aria-hidden="true"></span>
             </div>
             <div class="col-xs-2 placeholder">
               <h4>Balance</h4>
-              <span class="glyphicon glyphicon-signal img-responsive" style="font-size: 5em; margin-top:10px;" aria-hidden="true"></span>
+              <span class="glyphicon glyphicon-signal img-responsive text-muted" style="font-size: 5em; margin-top:10px;" aria-hidden="true"></span>
             </div>
           </div>
 
@@ -136,8 +159,12 @@
               <p>$500</p>
             </div>
           </div>
-          <h2 class="sub-header">Section title</h2>
-          <img src="img/barChart_sample.png"></img>
+          <h2 class="sub-header"></h2>
+          <div class="row placeholders">
+            <div class="col-xs-10 col-xs-offset-1"> 
+              <img src="img/barChart_sample.png" class="img-responsive"></img>
+            </div>
+          </div>
           <!-- <div class="table-responsive">
             <table class="table table-striped">
               <thead>
@@ -280,4 +307,38 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
+
+
+    <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-1">
+                  <p class="footer-text">AE LOGO</p>
+              </div>
+              <div class="col-xs-1 col-xs-offset-2">
+                  <p class="footer-text font-white">Jobs</p>
+              </div>
+              <div class="col-xs-1">
+                  <p class="footer-text font-white">Legal</p>
+              </div>
+              <div class="col-xs-1">
+                  <p class="footer-text font-white">Privacy</p>
+              </div>
+              <div class="col-xs-1">
+                  <p class="footer-text font-white">Help</p>
+              </div>
+              <div class="col-xs-1 col-xs-offset-2">
+                    <a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook social-media"></i></a>
+                  </div>
+                  <div class="col-xs-1">
+                    <a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter social-media"></i></a>
+                  </div>
+                  <div class="col-xs-1">
+                    <a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin social-media" style=""></i></a>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </footer>
+
 </html>
