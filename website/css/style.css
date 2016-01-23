@@ -37,6 +37,13 @@ body {
   width: auto;
 }
 
+.navbar-inner {
+    background:transparent;
+}
+
+.navbar a {
+    color: white;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
