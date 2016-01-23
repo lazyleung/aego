@@ -41,6 +41,7 @@ body {
   padding-right: 15px;
   padding-left: 15px;
 }
+
 .navbar-wrapper .navbar .container {
   width: auto;
 }
@@ -53,6 +54,20 @@ body {
 .nav > li > a:focus {
   text-decoration: none;
   background-color: grey;
+}
+  
+.navbar a {
+    color: white;
+}
+
+.navbar-nav > li{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.btnOrange {
+    color: white;
+    background-color: rgb(255,102,0);
 }
 
 /* COVER CUSTOMIZATION
