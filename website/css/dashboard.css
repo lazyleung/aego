@@ -2,10 +2,6 @@
  * Base structure
  */
 
-/* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  padding-top: 50px;
-}
 
 
 /*
@@ -17,12 +13,72 @@ body {
   border-bottom: 1px solid #eee;
 }
 
-/*
- * Top navigation
- * Hide default border to remove 1px line.
- */
-.navbar-fixed-top {
-  border: 0;
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+.navbar#common{
+  margin-bottom: 0px;
+  background-color: rgb(255,102,0); 
+}
+
+.navbar-brand {
+  padding: 0px 10px;
+}
+
+.navbar #logo {
+  height: 50px;
+}
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-nav a{
+  color: white;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: grey;
+}
+  
+.navbar a {
+    color: white;
+}
+
+.navbar-nav > #fat{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.btnOrange {
+    color: white;
+    background-color: rgb(255,102,0);
+}
+
+.foo {
+    color: white;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
 /*
