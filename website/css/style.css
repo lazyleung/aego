@@ -82,7 +82,7 @@ body {
   background: no-repeat center right fixed url(../img/profile_cover.jpg);
   background-size: 100%;     
   background-size: cover;
-  height: 50vh;
+  height: 30vh;
       
   margin: 0px;
   padding: 0px;
@@ -93,7 +93,7 @@ body {
 
 .profile #profile{
   border-radius: 50%;
-  border: 8px solid rgb(255,102,0);
+  border: 8px solid white;
   margin-top: -30%;
 }
 
@@ -105,9 +105,43 @@ body {
   background-color: red;
 }
 
+.profile .rating#main {
+  margin-top: 10px;
+  text-align: right;
+}
+.profile .service_title {
+  margin-top: 0px;
+}
+
 .profile .quickinfo {
   border-radius: 25px;
   border: 2px solid lightgrey;
+}
+
+.profile .review {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.profile .review h3 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.profile .review_profile {
+  border-radius: 50%;
+}
+
+.profile .booking {
+  padding: 0px;
+  margin-top: 20px;
+  
+  /*border-radius: 25px;*/
+  border: 2px solid lightgrey;
+}
+
+.profile .price {
+  background-color: #607D8B;
 }
 
 /* CUSTOMIZE THE CAROUSEL
