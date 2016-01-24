@@ -3,7 +3,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-bottom: 40px;
   color: #5a5a5a;
 }
 
@@ -68,6 +67,11 @@ body {
 .btnOrange {
     color: white;
     background-color: rgb(255,102,0);
+}
+
+.foo {
+    color: white;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
 }
 
 /* COVER CUSTOMIZATION
@@ -236,4 +240,28 @@ body {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+footer {
+  z-index:600;
+  width:100%;
+  height: 60px;
+  background-color:rgb(51,51,51);
+  padding-left:0px;
+  padding-right:0px;
+  margin-left:0;
+  margin-right:0;
+}
+
+footer .footer-text {
+    margin: 20px 0px;
+    color:white;
+    font-weight: bold;
+  }
+
+footer .social-media {
+  vertical-align:middle;
+  font-size:1.5em;
+  color:rgb(255,102,0);
+  margin:20px 0px;
 }
