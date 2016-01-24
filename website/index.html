@@ -78,6 +78,16 @@
                 <li><a href="#featurette3" class="page-scroll" >Contact</a></li>
               </ul>
             </div>
+            <div class="col-sm-3 col-md-3 pull-right">
+                <form class="navbar-form" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search here for services" name="srch-term" id="srch-term" style="width: 200px;">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default btnOrange" type="submit">Search</button>
+                    </div>
+                </div>
+                </form>
+            </div>
         </nav>
     </div>
 
@@ -97,7 +107,7 @@
             <div class="carousel-caption">
               <h1>Get things done!</h1>
               <p>Home to thousands of talented individuals. <br> Find the perfect candidate on Aego.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">How it works</a></p>
+              <p><a class="btn btn-lg btn-primary page-scroll" href="#featurette1" role="button">How it works</a></p>
             </div>
           </div>
         </div>
@@ -105,9 +115,9 @@
           <img class="second-slide" src="img/hkBanner2.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Sample Information Here</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn More</a></p>
+              <h1 class="foo">Affordable personal trainer for all</h1>
+              <p class="foo">Ever dropout of gym? No motivation? No Discipline? <br> Think no more!</p>
+              <p><a class="btn btn-lg btn-primary page-scroll" href="#featurette1" role="button">Learn More</a></p>
             </div>
           </div>
         </div>
@@ -131,33 +141,6 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
-
-    <nav class="navbar navbar-inverse" style="margin-top: 0px;height: 70px;padding: 5px;">
-        <div id="navbar" class="navbar-collapse collapse navbar-right">
-            <ul class="nav navbar-nav">
-            <li class="active" id="fat"><a href="#">Category4</a></li>
-            <li id="fat"><a href="#about">Category5</a></li>
-            <li id="fat"><a href="#contact">Category6</a></li>
-            </ul>
-        </div>
-        <div class="col-sm-3 col-md-3 pull-right" style="margin-right: 60px;">
-        <form class="navbar-form" role="search">
-        <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search here for services" name="srch-term" id="srch-term" style="width: 200px;">
-            <div class="input-group-btn">
-                <button class="btn btn-default btnOrange" type="submit">Search</button>
-            </div>
-        </div>
-        </form>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse navbar-left">
-            <ul class="nav navbar-nav">
-            <li class="active" id="fat"><a href="#">Category1</a></li>
-            <li id="fat"><a href="#about">Category2</a></li>
-            <li id="fat"><a href="#contact">Category3</a></li>
-            </ul>
-        </div>
-    </nav>
     
     <br>
     <br>
@@ -174,7 +157,7 @@
       <div class="row">
         <div class="col-lg-4">
           <h4>Jonathan Rockstar</h4>
-          <p>Photography</p>
+          <p>Personal Trainer</p>
           <input id="input-21e" value="2" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" disabled>
           <a href="profile.html" role="button" >
             <img class="img-circle" src="img/profile.jpg" alt="Generic placeholder image" width="180" height="180">
@@ -183,14 +166,14 @@
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <h4>Mario & Luigi</h4>
-          <p>Plumbers</p>
+          <p>Health Nutrisionists</p>
           <input id="input-21e" value="4" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" disabled>
           <img class="img-circle" src="img/profile3.jpg" alt="Generic placeholder image" width="180" height="180">
           <p><br><a class="btn btn-default" href="#" role="button">&hearts; Save to wishlist</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <h4>Jessika</h4>
-          <p>Blogger</p>
+          <p>Marathon Runner</p>
           <input id="input-21e" value="5" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" disabled>
           <img class="img-circle" src="img/profile2.jpg" alt="Generic placeholder image" width="180" height="180">
           <p><br><a class="btn btn-default" href="#" role="button">&hearts; Save to wishlist</a></p>
@@ -204,8 +187,8 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First Information <span class="text-muted">about</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Aego <span class="text-muted">What is it about?</span></h2>
+          <p class="lead">Aego is a platform to connect motivated people to their perfect fit personal trainer.</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive center-block" src="img/featurette1.jpg" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -216,8 +199,8 @@
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading"><span class="text-muted">What's the current problem?</span></h2>
+          <p class="lead"></p>
         </div>
         <div class="col-md-5 col-md-pull-7">
           <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
